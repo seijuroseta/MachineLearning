@@ -1,0 +1,10 @@
+limit_error = "Error #1: Too many requests!"
+parameter_error = "Error #2: Review parameter is required!"
+
+main_page = "This is an API to predict review score.\n\n"
+main_page += "1. Send request to prediction route with review param.\n"
+main_page += "(example: [GET] /prediction?review=Great!)\n\n"
+main_page += "2. Recieve a response with score.\n"
+main_page += "(example: { success: true, data: { score: 10, tone: 1, review: \"Great!\" } })\n"
+main_page += "(example: { success: false, data: { error: \"Error #1: Parameter review is required\" } })\n"
+main_page += "(example: { success: false, data: { error: \"Error #2: Rate limits exceeded\" } })\n"

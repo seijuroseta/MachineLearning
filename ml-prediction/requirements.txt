@@ -1,0 +1,5 @@
+joblib
+nltk
+sklearn
+flask
+flask_limiter

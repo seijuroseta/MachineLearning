@@ -1,0 +1,21 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "## Файлы и структура проекта ``` Файлы 1. general.ipynb - лабораторная работа 2. report.pdf - отчет по проделанной работе",
+  "main": "index.js",
+  "scripts": {
+    "build:ml-prediction": "docker build ./ml-prediction",
+    "build:ml-backend": "docker build ./ml-backend",
+    "start:all": "docker-compose -f docker-compose.yml up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seijuroseta/MachineLearning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seijuroseta/MachineLearning/issues"
+  },
+  "homepage": "https://github.com/seijuroseta/MachineLearning#readme"
+}
